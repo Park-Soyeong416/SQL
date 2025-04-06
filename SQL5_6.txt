@@ -1,3 +1,4 @@
+#집계함수
 SELECT COUNT(*) FROM sample51;
 SELECT COUNT(*) FROM sample51 WHERE name='A';
 SELECT COUNT(no), COUNT(name), FROM sample51;
@@ -53,6 +54,7 @@ DROP INDEX 인덱스명 ON 테이블명
 
 #EXPLAIN
 EXPLAIN SELECT*FROM sample62 WHERE no>10;
+
 
 #뷰의 작성과 삭제
 CREATE VIEW 뷰명 AS SELECT명령
